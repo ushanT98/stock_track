@@ -44,9 +44,9 @@ function Stocktrackmain(){
 
 
             <br/><br/>
-            <Link to="/stocks"> Go to stock Data Page</Link><br/>
+            {/* <Link to="/stocks"> Go to stock Data Page</Link><br/>
             <Link to="/shipments">Go to Shipment Data Page</Link> <br/>
-            <Link to="/suppliers">Go to Supplier Data Page</Link>
+            <Link to="/suppliers">Go to Supplier Data Page</Link> */}
 
         </div>
     );

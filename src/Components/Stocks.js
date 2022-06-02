@@ -5,7 +5,7 @@ import Stocktable from "./Stocktable";
 function Stocks(){
 
     return(
-        <div style={{backgroundImage: `url("https://images.pexels.com/photos/159888/pexels-photo-159888.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")`,
+        <div style={{backgroundImage: `url("https://welpmagazine.com/wp-content/uploads/2020/09/manufacturing-inventory.jpg")`,
          backgroundRepeat:"no-repeat",
          backgroundAttachment:"fixed",
          backgroundSize:"100% 100%",
@@ -19,7 +19,17 @@ function Stocks(){
 
             <Stocktable />
 
-            <Link to="/stocktrackmain">Go back to Stock Tracking Main Page</Link>
+            <Link to="/"><button style={{
+                padding: "1px 10px",
+                border: "none",
+                cursor: "pointer",
+                backgroundColor: "rgb(5, 39, 18)",
+                color: "white",
+                height: "70px",
+                width: "400px",
+               
+                
+            }}> {"<<< "}Go back to Stock Tracking Main Page </button></Link>
         </div>
     )
 }

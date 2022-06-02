@@ -1,0 +1,41 @@
+stock_heading img {
+    width: fit-content;
+}
+
+.supplier_heading h1 {
+    font-family:Century Gothic;
+    font-size: 80px;
+    color:rgb(253, 252, 252);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+   
+}
+
+
+.supplier_heading p {
+    font-family:'Brush Script MT', cursive;
+    font-size: 35px;
+    color:rgb(253, 252, 252);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    text-shadow: 2px 2px 4px rgb(27, 27, 27);
+    
+}
+
+.table {
+  
+   
+    width: 40%;
+    margin-left: auto; 
+    margin-right: auto;
+    overflow: hidden;
+    padding: 5rem 2rem;
+    position: relative;
+    background-color: black;
+}
